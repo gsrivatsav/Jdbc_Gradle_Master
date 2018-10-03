@@ -11,6 +11,8 @@ public class JdbcConnection {
     public static void getConnection() throws ClassNotFoundException {
 
         System.out.println("JdbcConnection.getConnection()");
+        Class.forName("");
+        System.out.println("SSS");
     }
 
 }
